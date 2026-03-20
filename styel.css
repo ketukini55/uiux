@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mon-bold;
+    src: url(/font/Montserrat-Bold.ttf);
+    font-family: mon-light; src: url(/font/Montserrat-Light.ttf);
+    font-family: open-light; src: url(/font/OpenSans_Condensed-Light.ttf);
+    font-family: open-reg; src: url(/font/OpenSans_Condensed-Regular.ttf);
+}
+
+#nav {
+    height: 10vh;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left {
+    display: flex;
+    padding-left: 10vh;
+    font-family: open-reg;
+    font-size: 1.2em;
+}
+
+#center {
+    display: flex;
+    gap: 50px;
+    font-family: mon-light;
+}
+
+button{
+    margin-right: 8vh;
+    font-family: mon-bold;
+    font-size: 0.7em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+body { 
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+
+    
+}
+
+#hero {
+    position: absolute;
+    font-family: open-reg;
+    font-size: 10em;
+    align-items: center;
+    letter-spacing: 7vh;
+    padding-left: 20vh;
+   
+}
+
+#small_text {
+    position: absolute;
+    font-family: open-bold;
+    align-items: center;
+    padding-left: 22vh;
+    padding-top: 37vh;
+    font-size: 1em;
+
+}
+
+#buttom {
+    display: flex;
+    position: absolute;
+    padding-top: 70vh;
+    padding-left: 10vh;
+    align-items: center;
+    
+}
+
+#center img {
+    padding-left: 60vh;
+    padding-top: 10vh;
+    height: 90vh;
+    display: flex;
+
+}
+
+#leftimg img{
+    padding-left: 100vh;
+    height: 30vh;
+    position: absolute;
+    
+    
+}
+   
